@@ -5,7 +5,7 @@
         // Create an object of type RaumschiffVorlage.
         RaumschiffVorlage raumschiffEins = new RaumschiffVorlage();
 
-        raumschiffEins.setzeNamen("alba");
+        raumschiffEins.schiffName="alba";
         raumschiffEins.zeigeStatus();
     }
 }
