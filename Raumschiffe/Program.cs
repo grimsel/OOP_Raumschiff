@@ -7,7 +7,7 @@ class Program
     {
         // Create an object of type RaumschiffVorlage.
         RaumschiffVorlage raumschiffEins = new RaumschiffVorlage();
-        RaumschiffVorlage raumschiffZwei = new RaumschiffVorlage();
+        DrohneVorlage raumschiffZwei = new DrohneVorlage();
 
         raumschiffEins.setzeNamen("alba");
         raumschiffEins.zeigeStatus();
@@ -54,6 +54,7 @@ class Program
             //--- Anzeige der Raumschiffe un ihren Stati ---
             raumschiffEins.zeigeStatus();
             raumschiffZwei.zeigeStatus();
+            raumschiffZwei.zeigeKanal();
 
             runde++;
         }

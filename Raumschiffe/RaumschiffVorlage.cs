@@ -3,9 +3,9 @@
     class RaumschiffVorlage
     {
         //Das Attribut 'geschwindigkeit' erhält zu Beginn den Wert 5
-        int geschwindigkeit = 5;
-        int schild = 2;
-        int leben = 10;
+        protected int geschwindigkeit = 5;
+        protected int schild = 2;
+        protected int leben = 10;
         string schiffName;
 
         // Diese Methode gibt dem Raumschiff einen Namen
