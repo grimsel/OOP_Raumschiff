@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-    class Program
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
         KlavierVorlage mySteinway = new KlavierVorlage();
         mySteinway.musiziere();
         mySteinway.deckelOeffnen();
         mySteinway.musiziere();
     }
-    }
+}
 
 
 class KlavierVorlage
